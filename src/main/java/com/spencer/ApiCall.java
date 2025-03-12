@@ -117,7 +117,7 @@ public class ApiCall {
             }
             String responseBody = EntityUtils.toString(response.getEntity());
             JSONObject jokeJson = new JSONObject(responseBody);
-//                System.out.println(responseBody);
+                System.out.println(responseBody);
 
             if (jokeJson.has("value")) {
                 String jokeStr = jokeJson.getString("value");
