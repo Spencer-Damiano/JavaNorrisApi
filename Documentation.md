@@ -76,23 +76,16 @@ Handles all external API communication with the Chuck Norris joke service.
 ## JokeRepository
 
 ### Purpose
-Manages persistence of jokes to local and shared files, handling all file I/O operations.
+Manages persistence of jokes to local file, handling all file I/O operations.
 
 ### Variables
 - `private final Path localFavoritesPath` - Path to local favorites file
-- `private final Path userFavoritesPath` - Path to shared favorites file
 - `private final ObjectMapper objectMapper` - For JSON serialization/deserialization
 
-### Inner Classes
-- `private static class UserFavorites` - Represents a user's collection of favorites
-- `private static class FavoritesDatabase` - Represents the structure of the favorites database
 
 ### Methods
 - `void saveLocalFavorite(JokeRecord joke)` - Saves to local favorites
 - `List<JokeRecord> getLocalFavorites()` - Gets all local favorites
 - `void removeLocalFavorite(String jokeId)` - Removes from local favorites
-- `void saveUserFavorite(String username, JokeRecord joke)` - Saves to user favorites
-- `List<JokeRecord> getUserFavorites(String username)` - Gets all favorites for a user
-- `void removeUserFavorite(String username, String jokeId)` - Removes from user favorites
-- `private FavoritesDatabase getUserFavoritesDatabase()` - Helper method to load database
+- `void createLocalJson()` - create a file if not found
 
