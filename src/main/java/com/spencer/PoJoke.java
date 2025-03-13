@@ -15,8 +15,8 @@ public class PoJoke {
 
     // All fields as public final
     public final String iconUrl = DEFAULT_ICON_URL;
-    public final LocalDateTime updatedAt;
-    public final LocalDateTime createdAt;
+    public final String updatedAt;
+    public final String createdAt;
     public final String id;
     public final String value;
     public final String url;
@@ -30,8 +30,8 @@ public class PoJoke {
     public PoJoke(JSONObject rawJson) {
         this.rawJson = rawJson;
 
-        this.updatedAt = parseDateTime(rawJson.getString("updated_at"));
-        this.createdAt = parseDateTime(rawJson.getString("created_at"));
+        this.updatedAt = rawJson.getString("updated_at");
+        this.createdAt = rawJson.getString("created_at");
         this.id = rawJson.getString("id");
         this.value = rawJson.getString("value");
         this.url = rawJson.getString("url");
@@ -84,11 +84,11 @@ public class PoJoke {
         return iconUrl;
     }
 
-    public LocalDateTime getUpdatedAt() {
+    public String getUpdatedAt() {
         return updatedAt;
     }
 
-    public LocalDateTime getCreatedAt() {
+    public String getCreatedAt() {
         return createdAt;
     }
 

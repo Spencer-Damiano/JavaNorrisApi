@@ -39,8 +39,8 @@ public class JokeRepo {
         }
 
         // Test removing a joke
-        repo.removeLocalFavorite(joke.getId());
-        System.out.println("After removal: " + repo.getLocalFavorites().size() + " jokes remaining");
+//        repo.removeLocalFavorite(joke.getId());
+//        System.out.println("After removal: " + repo.getLocalFavorites().size() + " jokes remaining");
     }
 
     /**

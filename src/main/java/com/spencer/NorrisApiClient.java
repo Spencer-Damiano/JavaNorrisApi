@@ -16,19 +16,19 @@ public class NorrisApiClient {
 
     public static void main(String[] args) {
         NorrisApiClient client = new NorrisApiClient();
-//        System.out.println("from NorrisApiClient");
-//
-//
-//        JSONObject jsonTest = client.getRandomResponseRaw();
-//        System.out.println(jsonTest.toString());
-//        PoJoke jokeOne = client.getRandomPojoke();
-//
-//        System.out.println(jokeOne.getId());
-//
-//        PoJoke jokeCat = client.getCatagoryPojoke("5");
-//        System.out.println(jokeCat.getId());
+        System.out.println("from NorrisApiClient");
 
-//        client.printCategories();
+
+        JSONObject jsonTest = client.getRandomResponseRaw();
+        System.out.println(jsonTest.toString());
+        PoJoke jokeOne = client.getRandomPojoke();
+
+        System.out.println(jokeOne.getId());
+
+        PoJoke jokeCat = client.getCatagoryPojoke("5");
+        System.out.println(jokeCat.getId());
+
+        client.printCategories();
 
         ArrayList<PoJoke> queryTest = client.getQueryResponseRaw("roman");
 

@@ -1,0 +1,29 @@
+[
+    {
+        "icon_url": "https://api.chucknorris.io/img/avatar/chuck-norris.png",
+        "updated_at": "2025-03-13T16:48:33.101503200",
+        "created_at": "2025-03-13T16:48:33.101503200",
+        "id": "_oCRwevzRiy9fUhimmFatQ",
+        "categories": [],
+        "value": "The fatalities in Mortal Kombat are just reenactments of Chuck Norris going ape shit durring a traffic jam.",
+        "url": "https://api.chucknorris.io/jokes/_oCRwevzRiy9fUhimmFatQ"
+    },
+    {
+        "icon_url": "https://api.chucknorris.io/img/avatar/chuck-norris.png",
+        "updated_at": "2020-01-05T13:42:25.099703",
+        "created_at": "2020-01-05T13:42:25.099703",
+        "id": "wHzUsBIATmePkjf_SYIpuw",
+        "categories": [],
+        "value": "When Chuck Norris was in middle school, his English teacher assigned an essay: \"What is courage?\" Chuck received an A+ for turning in a blank page with only his name at the top.",
+        "url": "https://api.chucknorris.io/jokes/wHzUsBIATmePkjf_SYIpuw"
+    },
+    {
+        "icon_url": "https://api.chucknorris.io/img/avatar/chuck-norris.png",
+        "updated_at": "2020-01-05 13:42:30.480041",
+        "created_at": "2020-01-05 13:42:30.480041",
+        "id": "r8tCvn9mSH2KFTHJnqM69Q",
+        "categories": [],
+        "value": "Saying Chuck Norris sucks actually means hes epic. Saying Chuck Norris is epic means hes epic. Saying Chuck Norris is good means hes epic...Obviously anything you say about Chuck Norris means hes epic. A boy: Chuck Norris, you suck. Chuck Norris: I am epic.",
+        "url": "https://api.chucknorris.io/jokes/r8tCvn9mSH2KFTHJnqM69Q"
+    }
+]
